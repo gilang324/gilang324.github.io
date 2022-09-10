@@ -1,0 +1,106 @@
+body {
+    font-family: "Rockwell", "Arial Narrow", Arial, sans-serif;
+    background-image: url('https://i.postimg.cc/rFgssV75/wc1709093-sasuke-wallpaper-hd-2016.jpg');
+    background-size: cover;
+    background-attachment: fixed; 
+    color: blue;
+    text-shadow: white;
+}
+span {
+    color: red;
+}
+h1{
+    color: blue;
+    background-color: aqua;
+    background-size: auto;
+    font-weight: bold;
+    margin-top: 2px;
+    border: none;
+    border-radius: 80px;
+    margin-left: auto;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+h1:hover{
+    color: red;
+    letter-spacing: 4px;
+}
+
+img{
+    width: 4cm;
+    border-top: 80%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px gray;
+    padding: 6px;
+    background: white;
+    margin: 15px;
+    transition: 0.2s;
+    opacity: 93%;
+    width: 6cm;
+    height: 6cm;
+    object-fit: cover;
+}
+
+img:hover{
+    transform: scale(1.2);
+    opacity: 100%;
+    box-shadow: 1px 1px 6px red;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td, th{
+    border: 1px solid #fc00ff;
+    padding: 8px;
+
+
+}
+
+td:first-child{
+    text-align: center;
+
+
+}
+
+.judul{
+    text-align: center;
+    font-size: 30px;
+}
+
+.judul-tabel{
+    background-color: seagreen;
+    color: navajowhite;
+}
+
+.top1{
+    text-align: center;
+    color: blue;
+}
+
+.tombol{
+    background-color: skyblue;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.tombol:hover{
+    background-color: #45a049;
+}
+
+a{
+    color: orangered;
+    text-decoration: none;
+}
+
+td:hover{
+    background-color: silver;
+}
