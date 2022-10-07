@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+<style>
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-image: url('../img/tbg.png');
+    background-repeat: no-repeat;
+    background-size:cover
+}
+.halamansiji .saya{
+    font-weight: bold;
+}
+
+.gilang{
+    background-color: #ff00fc;
+    padding: 10px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 10px;
+    text-align: justify;
+}
+.cumasijibae{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.halamansiji{
+    position: fixed;
+    background-color: lightgreen;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.1s ease-in-out;
+    box-shadow:1px 1px 10px;
+    z-index: 99;
+}
+.halamansiji .cumasijibae{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.1s ease-in-out;
+}
+
+.halamansiji ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.halamansiji a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.halamansiji a:hover{
+    color: black;
+}
+
+.tampilan{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.tampilan span {
+    font-size: 35px;
+    color: crimson;
+    text-shadow: white;
+}
+
+</style>
+
+    <nav class="halamansiji">
+    <div class="cumasijibae">
+    <span class="tampilan"><a href="../index.html"><span>GILANG <span>SANJAYA</a></span>
+      <ul>
+       <li class="rumah" id="nav_gilang1"><a href="#" style="font-size: 25px;">Home</a></li>
+       <li class="saya" id="nav_gilang2"><a href="#" style="font-size: 25px;">Produk</a></li>
+       <li class="saya" id="nav_gilang3"><a href="#" style="font-size: 25px;">Layanan</a></li>
+       <li class="saya" id="nav_gilang4"><a href="#" style="font-size: 25px;">Tentang</a></li>
+       <li class="saya" id="nav_gilang5"><a href="#" style="font-size: 25px;">Kontak</a></li>
+
+      </ul>
+     </div>
+    </nav>
+
+    <br><br><br>
+
+    <div class="saya" id="gilang">
+      <br>
+      <h2>Menu Home</h2>
+        <p>Sed mollit commodo excepteur nulla exercitation et eu sunt aliqua aliquip anim in sint sint exercitation deserunt. Aliqua ex ut ut ut enim non anim dolor tempor aute reprehenderit voluptate nisi aute sint.</p>
+    </div>
+    <div class="saya" id="gilang2">
+        <br>
+      <h2>Menu Produk</h2>
+        <p>Tempor exercitation ea minim ut consequat excepteur nostrud proident ex pariatur. Dolore minim do mollit veniam non laborum ut id voluptate. Nisi velit commodo minim sed pariatur enim sint laborum labore laborum et reprehenderit sed anim aliqua deserunt culpa. Lorem ipsum pariatur commodo dolor anim dolore dolore in occaecat sint eiusmod.</p>   
+    </div>
+    <div class="saya" id="gilang3">
+        <br>
+      <h2>Menu Layanan</h2>
+        <p>Ut ea in officia enim esse laboris labore laboris minim dolore. Adipisicing ea consequat duis fugiat do ea culpa dolor ut ad ex irure exercitation est ut. Dolore ut esse nulla in labore velit excepteur sint tempor adipisicing sit.</p>   
+    </div>
+    <div class="saya" id="gilang4">
+        <br>
+      <h2>Menu Tentang</h2>
+        <p>Et sit in culpa enim aliqua ullamco laborum excepteur aute exercitation. Dolor quis cupidatat aute nisi magna culpa dolor exercitation ex non. Lorem ipsum tempor cillum tempor mollit esse et nostrud proident labore commodo velit aliqua enim dolor consectetur id pariatur cillum consectetur. Enim in ut tempor deserunt ullamco minim ea cillum ea minim commodo in in dolore aliquip.</p>   
+    </div>
+    <div class="saya" id="gilang5">
+        <br>
+      <h2>Menu Kontak</h2>
+        <p>Id pariatur anim amet deserunt anim amet consectetur ex consequat aute mollit culpa ut occaecat do. Lorem ipsum aliqua officia voluptate est quis adipisicing aliquip deserunt culpa laborum aute id duis. Aliquip deserunt et nisi do pariatur mollit cillum proident sint excepteur. Tempor deserunt nisi qui duis sunt tempor fugiat fugiat tempor anim laborum ex voluptate ad incididunt ex culpa.</p>   
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="jsgilangg.js"></script>
+</body>
+</html>
